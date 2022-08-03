@@ -1,0 +1,121 @@
+body {
+    background-color: #F8F3EC;
+}
+.topnav {
+    display: block;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 150px;
+    padding-top: 150px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+.topnav a:hover {
+    text-decoration: underline;
+}
+.topnav a.split {
+    float: right;
+    color: black;
+    font-weight: normal;
+    padding-left: 25px;
+}
+#homeTitle {
+    padding-left: 275px;
+    padding-bottom: 50px;
+}
+h2 {
+    font-size: 48px;
+    font-family: Arial;
+    font-style: bold;
+}
+h4 {
+    font-size: 36px;
+    font-family: Arial;
+    font-style: bold;
+}
+#designer {
+    margin-left: 275px;
+    margin-bottom: 250px;
+}
+footer {
+    height: 250px;
+    background-color: #D9D9D9;
+    margin-top: 250px
+}
+#logo {
+    float: left;
+    margin-left: 275px;
+    padding-top: 60px;
+}
+.footerItems {
+    float: right;
+    margin-right: 275px;
+    padding-top: 165px;
+}
+#instagram {
+    padding-left: 20px;
+}
+#linkedIn {
+    padding-left: 20px;
+}
+#paperPlane {
+    padding-left: 20px;
+}
+.image-gallery {
+    display: flex;
+    list-style-type: none;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 275px;
+    padding-right: 275px;
+    justify-content: space-between;
+    gap: auto;
+}
+  
+  .image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+}
+  
+  .image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+#gov {
+    width: 460px;
+}
+#ohs {
+    width: 460px;
+}
+.overlay {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.ned {
+    padding-top: 100px;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+#ned {
+    width: 945px;
+}
+#nedTitle {
+    display: block;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-right: 275px;
+}
